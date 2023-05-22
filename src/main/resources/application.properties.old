@@ -1,0 +1,8 @@
+spring.datasource.url=jdbc:mariadb://localhost:3306/authsystem
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=update
+server.port=4000
+
+jwt.secret=joaozinho
+jwt.expires=6000000

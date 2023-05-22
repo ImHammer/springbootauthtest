@@ -1,0 +1,22 @@
+
+server:
+  port: 4000
+
+logging:
+  file:
+    name: log.log
+
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/authsystem
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+mapplication:
+  salt_rounds: 10
+  jwt:
+    secret: joaoemaria
+    expires: 600000
